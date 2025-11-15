@@ -20,7 +20,7 @@ def ensure_json(path: str, default_obj):
 if __name__ == "__main__":
     exemplo = {
         "nome_projeto": "Técnica e Desenvolvimento de Algoritmos",
-        "integrantes": [],
+        "integrantes": [John Lucas Garcia dos Santos],[Vitor Daniel Dorea Santos]
         "data": "2025-11-15"
     }
     ensure_json("data/exemplo.json", exemplo)
